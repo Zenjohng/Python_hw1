@@ -26,8 +26,8 @@ while (guess != secrectNumber):
         #if the guess is not equal to the secrect number, guess again. The user is prompted to ebnter a number
         guess = int (input("Enter a number"))
 
-        print (" Zee gives congrats! the number is" +str(secrectNumber))
-        print ("it took you" +str(numGuesses) + "trys. Great job!")
+        print (" Zee gives congrats to" +str(name) +"! the number is" +str(secrectNumber))
+        print ("it took you" +str(numGuesses) + "guesses. Great job!")
        
 
    

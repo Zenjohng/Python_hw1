@@ -16,15 +16,18 @@ guess = int(input("Enter a guess:"))
  #if the guess is not equal to the secrect number, do the while loop.
 while (guess != secrectNumber):
     if guess > secrectNumber:
-      print ("the secrect number is less than "+ str())
+      print ("the secrect number is less than "+ str(guess))
 
       else:
-        print ("the secrect number is greater than " + str())
+        print ("the secrect number is greater than " + str(guess))
         numGuesses += 1
         #The number of guesses is incremented by +1
         
         #if the guess is not equal to the secrect number, guess again. The user is prompted to ebnter a number
         guess = int (input("Enter a number"))
+
+        print (" Zee gives congrats! the number is" +str(secrectNumber))
+        print ("it took you" +str(numGuesses) + "trys. Great job!")
        
 
    

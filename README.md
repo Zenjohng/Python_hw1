@@ -23,7 +23,7 @@
 *printed a mesage to the user to tell how many guesses to took to guess correctly
         
       
-![](python gif.gif)
+![](python.gif)
 
    
 

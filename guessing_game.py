@@ -36,4 +36,3 @@ while (guess != secrectNumber > 5):
 
 
 
-
